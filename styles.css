@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+div{
+    padding:32px;
+} 
+
+.navbar{
+    padding:18px;
+    margin:0;
+    height: 50px;
+    background-color: #1F2937;
+    display:flex;
+    
+}
+
+
+
+.navbar ul{
+  
+    flex:1;
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 50px ;
+    align-items: center;;
+    
+}
+
+.navbar #Home{
+    margin-right:auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: x-large;
+    font-weight: 900;
+}
+.one{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    background-color: #1F2937;
+    
+    flex-wrap:wrap;
+    color:white;
+}
+
+.one strong{
+    font-size: xx-large;
+}
+.child{
+    display:flex;
+    
+}
+.one-one{
+    width:400px;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content:center;
+    line-height: 30px;
+    gap:10px;
+}
+
+.one img{
+    height:300px;
+
+}
+
+.two img{
+    width:150px;
+    height:150px;
+}
+
+li{
+    color:white;
+}
+
+.two{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.children{
+    max-width: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.children p{
+    text-align: center;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+
+    color:white;
+}
+
+.three{
+    padding:60px  400px ;
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-direction: column;
+    font-size:32px;
+}
+
+#span{ 
+    display:flex;
+    width:600px;
+    padding:0;
+    justify-content: flex-end;
+    font-size:15px;
+}
+span{
+    font-weight:900;
+    
+}
+
+
+.four{
+    display:flex;
+    justify-content: center;
+
+    
+}
+.card{
+    display:flex;
+    justify-content: space-evenly;
+    align-self: center;
+    color:white;
+    font-weight: 900;
+    font-size: x-large;
+    background-color: #3882F6;
+    border-radius: 20px;
+    width:600px;
+}
+button{
+    padding: 8px 16px;
+    background-color: skyblue;
+    border:none;
+    border-radius: 120px;
+}
